@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev --ext \".tsx .svelte .html\"",
-    "build": "sapper build --legacy",
+    "build": "sapper build --legacy --ext \".tsx .svelte .html\"",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
